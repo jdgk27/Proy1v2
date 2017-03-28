@@ -17,5 +17,7 @@ public class Login extends AppCompatActivity {
         Intent i = new Intent(getApplicationContext(),Main.class);
         startActivity(i);
         setContentView(R.layout.main);
+        Prueba p = new Prueba();
+        p.Prueba();
     }
 }
